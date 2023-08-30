@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="7" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-30T11:12:20 IST" name="Suite" finished-at="2023-08-30T11:13:18 IST" duration-ms="58201">
+    <groups>
+    </groups>
+    <test started-at="2023-08-30T11:12:20 IST" name="Error validation Test" finished-at="2023-08-30T11:12:33 IST" duration-ms="13156">
+      <class name="webframework.SeleniumWebFrameWorkDesign.Test.ErrorValidations">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.ErrorValidations@63376bed]" started-at="2023-08-30T11:12:20 IST" name="launchApp" finished-at="2023-08-30T11:12:28 IST" duration-ms="8155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method retried="true" signature="ErrorValid()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.ErrorValidations@63376bed]" started-at="2023-08-30T11:12:28 IST" name="ErrorValid" finished-at="2023-08-30T11:12:29 IST" duration-ms="560" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email lr password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email lr password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at webframework.SeleniumWebFrameWorkDesign.Test.ErrorValidations.ErrorValid(ErrorValidations.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorValid -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.ErrorValidations@63376bed]" started-at="2023-08-30T11:12:29 IST" name="endTest" finished-at="2023-08-30T11:12:29 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.ErrorValidations@63376bed]" started-at="2023-08-30T11:12:29 IST" name="launchApp" finished-at="2023-08-30T11:12:32 IST" duration-ms="2999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="ErrorValid()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.ErrorValidations@63376bed]" started-at="2023-08-30T11:12:32 IST" name="ErrorValid" finished-at="2023-08-30T11:12:33 IST" duration-ms="1042" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email lr password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email lr password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at webframework.SeleniumWebFrameWorkDesign.Test.ErrorValidations.ErrorValid(ErrorValidations.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorValid -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.ErrorValidations@63376bed]" started-at="2023-08-30T11:12:33 IST" name="endTest" finished-at="2023-08-30T11:12:33 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- webframework.SeleniumWebFrameWorkDesign.Test.ErrorValidations -->
+    </test> <!-- Error validation Test -->
+    <test started-at="2023-08-30T11:12:33 IST" name="Cumulative Tests" finished-at="2023-08-30T11:13:03 IST" duration-ms="29818">
+      <class name="webframework.SeleniumWebFrameWorkDesign.Test.LoginPageTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.LoginPageTest@4a003cbe]" started-at="2023-08-30T11:12:34 IST" name="launchApp" finished-at="2023-08-30T11:12:41 IST" duration-ms="7705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.LoginPageTest@4a003cbe]" started-at="2023-08-30T11:12:41 IST" name="submitOrder" data-provider="getData" finished-at="2023-08-30T11:12:56 IST" duration-ms="14850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{paswrd=S@chin200, email=saistudent080796@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.LoginPageTest@4a003cbe]" started-at="2023-08-30T11:12:56 IST" name="endTest" finished-at="2023-08-30T11:12:56 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.LoginPageTest@4a003cbe]" started-at="2023-08-30T11:12:56 IST" name="launchApp" finished-at="2023-08-30T11:13:03 IST" duration-ms="6232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="ErrorValid()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.LoginPageTest@4a003cbe]" started-at="2023-08-30T11:13:03 IST" name="ErrorValid" finished-at="2023-08-30T11:13:03 IST" depends-on-methods="webframework.SeleniumWebFrameWorkDesign.Test.LoginPageTest.submitOrder" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorValid -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.LoginPageTest@4a003cbe]" started-at="2023-08-30T11:13:03 IST" name="endTest" finished-at="2023-08-30T11:13:03 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- webframework.SeleniumWebFrameWorkDesign.Test.LoginPageTest -->
+    </test> <!-- Cumulative Tests -->
+    <test started-at="2023-08-30T11:13:03 IST" name="Order submmitioin Test" finished-at="2023-08-30T11:13:18 IST" duration-ms="15163">
+      <class name="webframework.SeleniumWebFrameWorkDesign.Test.FullflowTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.FullflowTest@433defed]" started-at="2023-08-30T11:13:03 IST" name="launchApp" finished-at="2023-08-30T11:13:10 IST" duration-ms="7126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitOrder()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.FullflowTest@433defed]" started-at="2023-08-30T11:13:10 IST" name="submitOrder" finished-at="2023-08-30T11:13:14 IST" duration-ms="3386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.FullflowTest@433defed]" started-at="2023-08-30T11:13:14 IST" name="endTest" finished-at="2023-08-30T11:13:14 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.FullflowTest@433defed]" started-at="2023-08-30T11:13:14 IST" name="launchApp" finished-at="2023-08-30T11:13:18 IST" duration-ms="4409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.FullflowTest@433defed]" started-at="2023-08-30T11:13:18 IST" name="OrderHistoryTest" finished-at="2023-08-30T11:13:18 IST" depends-on-methods="webframework.SeleniumWebFrameWorkDesign.Test.FullflowTest.submitOrder" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:webframework.SeleniumWebFrameWorkDesign.Test.FullflowTest@433defed]" started-at="2023-08-30T11:13:18 IST" name="endTest" finished-at="2023-08-30T11:13:18 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- webframework.SeleniumWebFrameWorkDesign.Test.FullflowTest -->
+    </test> <!-- Order submmitioin Test -->
+  </suite> <!-- Suite -->
+</testng-results>
