@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webframework.SeleniumWebFrameWorkDesign.Test.ErrorValidations">
+      <class name="webframework.SeleniumWebFrameWorkDesign.Test.ConvertjsontoMAp">
         <methods>
-          <include name="launchApp"/>
-          <include name="endTest"/>
-          <include name="ErrorValid"/>
+          <include name="retrnData"/>
         </methods>
-      </class> <!-- webframework.SeleniumWebFrameWorkDesign.Test.ErrorValidations -->
+      </class> <!-- webframework.SeleniumWebFrameWorkDesign.Test.ConvertjsontoMAp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

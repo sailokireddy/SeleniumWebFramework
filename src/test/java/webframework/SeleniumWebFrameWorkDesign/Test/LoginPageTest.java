@@ -70,8 +70,8 @@ public class LoginPageTest extends BaseTest{
 	public Object[][] getData() throws IOException {
 		 
 		  HashMap<String, String> map=new HashMap<String, String>();
-		  map.put("email","saistudent080796@gmail.com"); map.put("paswrd",
-		  "S@chin200");
+		  map.put("email","saistudent080796@gmail.com"); 
+		  map.put("paswrd","S@chin200");
 		  List<HashMap<String, String>> data =getJsonToMap(System.getProperty("user.dir")+"//src//test//java//webframewwork//Data//TestData.json");
 		  return new Object[][] {{data.get(0)}};
 	

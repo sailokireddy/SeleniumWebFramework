@@ -30,6 +30,7 @@ public class AbstractComps {
 	}
 	public void goToCart() {
 		cartBtn.click();
+		
 	}
 	public void ClickUsingJSExec(By submitBtn) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;    		

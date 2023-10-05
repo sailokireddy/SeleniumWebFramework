@@ -83,7 +83,9 @@ public class BaseTest {
 		File dest=new File(System.getProperty("user.dir")+"//reports//"+testcasename+".png");
 		FileUtils.copyFile(file, dest);
 		return System.getProperty("user.dir")+"//reports//"+testcasename+".png";
+
 	}
+	TakesScreenshot tsd=(TakesScreenshot)driver;
 	
 	
 }
